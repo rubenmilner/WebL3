@@ -3,9 +3,10 @@
     <head>
         <link rel="Stylesheet" href="Stylesheet.css">
         <script src="java.js"></script>
-        <title>Just Mugs</title>
+        <title>Web</title>
     </head>
-    <body onload="run()">
+
+    <body onload="loadCart()">
         <nav>
 
             <p class="logo">JustMugs</p>
@@ -16,10 +17,12 @@
                 <a href="Cart.html">Cart</a>
             </div>
         </nav>
+
         <section class="main">
-            <h1 class = CartI>Cart Items:</h1><h2 class="Count" id='ItemCount'>0</h2>
             <section class="MidB">
-                <ul id='products'>
+                <h1 class = CartI>Cart Items:</h1><h2 class="Count" id='ItemCount'>0</h2>
+                <h1 class = CartI>TotalPrice:</h1><h2 class="Count" id='ItemCount'>$0</h2>
+                <ul id='cartProducts'>
 
                 </ul>
 
